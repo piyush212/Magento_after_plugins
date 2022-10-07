@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="plugin_catalog_product" type="Piyush\Parag\Plugins\Product"/>
+    </type>
+</config>
+
+
+
+<!-- <?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<preference for="Magento\Catalog\Model\Product" 
+type="Piyush\Parag\Model\Product" /></config> -->
